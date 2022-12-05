@@ -1,0 +1,47 @@
+library(statools)
+#' Provides mode for a distribution vector
+#' @param dis_vec A distribution vector.
+#' @return mode_dis_vec A distribution vector.
+#' @examples
+#' Provides a single value if there is only one mode
+#'
+modes(c(1,3,2,4,5,3))
+modes(c(1,2,3))
+modes <- function(dis_vec) {
+dis_vec_hist <- table(dis_vec)
+mode_dis_vec <- as.numeric(names(dis_vec_hist)[dis_vec_hist == max(dis_vec_hist)])
+return(mode_dis_vec)
+}
+dis_vec_hist <- table(dis_vec)
+rect_volume<-calc_rect_vol(2,0.8,3)
+source("D:/Programming lab/PFA/Kousthubha/R/Kousthubha.R")
+area<-length*width
+source("D:/Programming lab/PFA/Kousthubha/R/Kousthubha.R")
+source("D:/Programming lab/PFA/Kousthubha/R/Kousthubha.R")
+source("D:/Programming lab/PFA/Kousthubha/R/Kousthubha.R")
+rect_volume<-calc_rect_vol(2,0.8,3)
+View(calc_rect_vol)
+source("D:/Programming lab/PFA/Kousthubha/R/Kousthubha.R")
+View(calc_rect_vol)
+View(calc_rect_vol)
+View(calc_rect_vol)
+View(calc_rect_vol)
+getwd()
+setwd(dir)
+getwd()
+library(roxygen2)
+roxygenise()
+getwd()
+roxygenise()
+detach("package:roxygen2", unload = TRUE)
+library(roxygen2)
+roxygenise()
+read.dcf(system.file("DESCRIPTION", package = "Kousthubha", mustWork = TRUE))
+read.dcf(system.file("DESCRIPTION", package = "pkgName", mustWork = FALSE))
+read.dcf(system.file("DESCRIPTION", package = "Kousthubha", mustWork = FALSE))
+read.dcf(all=TRUE)
+install.packages((Kousthubha))
+roxygenise()
+roxygen2::roxygenise()
+roxygen2::roxygenise()
+install.packages("roxygen2")

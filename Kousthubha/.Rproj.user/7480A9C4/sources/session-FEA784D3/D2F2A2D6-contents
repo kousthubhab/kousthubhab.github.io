@@ -1,0 +1,2 @@
+coupon1<-glm(Coupon~Spending+Card, data=Simmons, family=binomial)
+summary(coupon1)
